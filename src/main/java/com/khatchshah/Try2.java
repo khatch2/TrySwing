@@ -16,8 +16,8 @@ public class Try2 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        textField1 = new JTextField(10);
-        button1 = new JButton("Submit");
+//        textField1 = new JTextField(10);
+//        button1 = new JButton("Submit");
         tryLabel1 = new JLabel("Enter Your Name? ");
 
         setLayout(new FlowLayout());
