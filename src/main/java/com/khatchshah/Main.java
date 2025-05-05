@@ -13,6 +13,7 @@ public class Main extends JFrame {
     private JLabel label;
     
     public Main() {
+
         // Set up the frame
         setTitle("My Simple GUI");
         setSize(300, 200);
@@ -37,7 +38,9 @@ public class Main extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String text = textField.getText();
-                JOptionPane.showMessageDialog(null, "You entered: " + text);
+                JOptionPane.showMessageDialog(
+                        null,
+                        "You entered: " + text);
             }
         });
     }
@@ -48,8 +51,10 @@ public class Main extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Main myMain = new Main();
-                myMain.setVisible(true);
+//                Main myMain = new Main();
+//                myMain.setVisible(true);
+                Try2 myTry2 = new Try2();
+                myTry2.setVisible(true);
             }
         });
     }
